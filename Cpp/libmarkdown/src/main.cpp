@@ -46,7 +46,7 @@ int main(int argc, char const *argv[])
 	f << "<!DOCTYPE><head><meta charset=\"utf-8\"/><style>";
 	f << "</style><head><body><main>";
 	
-	f << cvt.to_bytes(str);
+	f << cvt.to_bytes(wos.str());
 	f << "</main><center><small>Created by <a href=\"https:/" \
 	"/github.com/mooction/MyNotePad\">MyNotePad</a>.</small></center><script src=\"https:/"\
 	"/cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=default\" type=\""\
